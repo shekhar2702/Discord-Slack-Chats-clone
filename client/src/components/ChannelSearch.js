@@ -22,7 +22,7 @@ const ChannelSearch = () => {
   };
   return (
     <div className="channel-search__container">
-      <div className="channel-search__input_wrapper">
+      <div className="channel-search__input__wrapper">
         <div className="channel-search__input__icon">
           <SearchIcon />
         </div>
@@ -37,3 +37,4 @@ const ChannelSearch = () => {
     </div>
   );
 };
+export default ChannelSearch;
