@@ -27,6 +27,7 @@ const TeamChannelList = ({ children, error = false, loading, type }) => {
         </p>
         {/* Todo-add channel button */}
       </div>
+      {children}
     </div>
   );
 };
